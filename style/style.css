@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1e1d22;
+}
+nav{
+    background-color: #151419;
+    color: #656568;
+    font-size: 1.2rem;
+    box-shadow: 3px 1px 2px rgba(0, 0, 0, 0.685);
+}
+nav a{
+    color: #fff;
+}
+.logo{
+    color: #fff;
+    background-color: purple;
+    height: 4rem;
+    width: 4rem;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 1rem;
+    border-radius: 0.5rem;
+    font-weight: bolder;
+}
+.anime{
+    
+    animation: fadeIn;
+    animation-duration: 2s;
+}
+.o-cont-p{
+    margin: 0;
+    padding: 0;
+}
+.o-items-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.o-item-nav{
+    margin: 0 4rem;
+}
+.o-item-nav a{
+    color: #656568;
+    text-decoration: none;
+}
+
+.o-item-nav a:active{
+    color: #fff;
+}
+
+.o-carousel{
+    margin: 3rem 3rem;
+}
+.o-caption-c{
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+.o-size-c{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#peliculas{
+    padding: 1rem 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.o-card{
+    padding: 1.5rem;
+    width: 20rem;
+    margin: 1.5rem 1rem;
+    text-decoration: none;
+    color: #afafaf;
+    background-color: #151419;
+    box-shadow: 1px 1px 10px #000000bd;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.o-card:hover{ 
+    color: #d1d1d1;
+    background-color: #212027;
+    animation: pulse;
+    animation-duration: 2s;
+
+}
+.o-img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.o-modal{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.o-modal p{
+    font-size: 18px;
+}
+.o-content-modal{
+    background-color: #151419;
+    color: #afafaf;
+}
+.o-header-modal{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.o-header-modal button{
+    background-color: white;
+    margin: 1rem;
+}
+
+
