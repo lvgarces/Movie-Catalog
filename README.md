@@ -36,7 +36,7 @@ This project includes key JavaScript features:
 2. Open the `index.html` file in your browser to see the app in action.
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone https://github.com/lvgarces/Movie-Catalog.git
 ```
 
 3. Go to the home page and explore the slider and movie cards.
